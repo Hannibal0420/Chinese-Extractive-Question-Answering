@@ -2,7 +2,9 @@
 
 This project aims to perform extractive question answering in Chinese.
 
-![concept.png](concept.png)
+<p align="center">
+  <img width="800" height="auto" src="image/concept.png" alt="concept.png">
+</p>
 
 ## **Prerequisites**
 
