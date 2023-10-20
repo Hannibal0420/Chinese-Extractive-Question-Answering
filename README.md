@@ -2,7 +2,9 @@
 
 This project aims to perform extractive question answering in Chinese.
 
-![concept.png](concept.png)
+<p align="center">
+  <img width="800" height="auto" src="images/concept.png" alt="concept.png">
+</p>
 
 ## **Prerequisites**
 
@@ -15,13 +17,7 @@ This project aims to perform extractive question answering in Chinese.
 - **`download.py`**: Python script to download necessary files from Google Drive.
 - **`run.sh`**: Bash script to run the inference code.
 - **`main.py`**: Python script containing the inference code.
-
----
-
 - **`train_src`**: Folder containing additional resources for training models on paragraph selection and span selection on your own.
-
----
-
 - **`report.pdf`**: Explanations of the data processing and model selection.
 
 ## **Setup**
@@ -61,7 +57,7 @@ To run the inference code, execute the **`run.sh`** script with the following ar
 
 ## Train Your Own Model
 
-In notebooks `**paragraph_selection.ipynb**` and **`span_selection.ipynb`** , you can fine-tune existing models or train from scratch. These codes are modified from these sources:
+In notebooks **`paragraph_selection.ipynb`** and **`span_selection.ipynb`** , you can fine-tune existing models or train from scratch. These codes are modified from these sources:
 
 - Paragraph Selection: [Transformers model](https://github.com/huggingface/transformers/blob/main/examples/pytorch/multiple-choice/README.md#multiple-choice) on a multiple choices dataset, like SWAG
 - Span Selection: [Transformers model](https://github.com/huggingface/transformers/blob/main/examples/pytorch/question-answering/README.md) on a question-answering dataset, like SQuAD
