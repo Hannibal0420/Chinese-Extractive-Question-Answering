@@ -3,7 +3,7 @@
 This project aims to perform extractive question answering in Chinese.
 
 <p align="center">
-  <img width="800" height="auto" src="image/concept.png" alt="concept.png">
+  <img width="800" height="auto" src="images/concept.png" alt="concept.png">
 </p>
 
 ## **Prerequisites**
